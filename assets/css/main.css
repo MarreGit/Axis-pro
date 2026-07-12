@@ -441,7 +441,7 @@ h6 {
 .footer {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 50px;
   position: relative;
 }
@@ -815,7 +815,7 @@ section,
 }
 
 .hero .hero-content p {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.7;
   margin-bottom: 3rem;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -846,6 +846,7 @@ section,
   transition: all 0.3s ease;
   border: none;
   box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
+  font-size: 2rem;
 }
 
 .hero .hero-cta .btn-primary:hover {
@@ -911,7 +912,7 @@ section,
 }
 
 .hero .hero-image img {
-  border-radius: 12px;
+  border-radius: 25px;
   box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
   margin-top: 20px
 }
@@ -4199,4 +4200,9 @@ section,
 .starter-section {
 
   /* Add your styles here */
+}
+
+body {
+  font-size: 1.5rem;
+  /* Ändrar standardstorleken */
 }
