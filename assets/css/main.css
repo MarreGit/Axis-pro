@@ -312,7 +312,7 @@ h6 {
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
-    font-size: 28px;
+    font-size: 38px;
     line-height: 0;
     margin-right: 10px;
     cursor: pointer;
@@ -907,11 +907,13 @@ section,
 
 .hero .hero-image {
   position: relative;
+  margin-top: auto
 }
 
 .hero .hero-image img {
   border-radius: 12px;
   box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
+  margin-top: 20px
 }
 
 .hero .hero-image .floating-card {
