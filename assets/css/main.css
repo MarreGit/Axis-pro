@@ -171,7 +171,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -4181,11 +4181,20 @@ section,
   .error-404 .helpful-links .links-title {
     margin-bottom: 40px;
   }
+
+}
+
+.logo {
+  max-height: 100px;
+  /* Ändra denna siffra för önskad höjd */
+  width: auto;
+  /* Behåller proportionerna */
 }
 
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
+
   /* Add your styles here */
 }
