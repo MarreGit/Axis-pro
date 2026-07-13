@@ -846,7 +846,7 @@ section,
   transition: all 0.3s ease;
   border: none;
   box-shadow: 0 4px 15px color-mix(in srgb, var(--accent-color), transparent 80%);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .hero .hero-cta .btn-primary:hover {
